@@ -1,5 +1,7 @@
 import random
 
+userName = input("What is your name?\n")
+print(f"Hello, {userName}!")
 
 print("Rolling the dice...")
 
@@ -12,6 +14,6 @@ print(f"Die2 : {dice2}")
 print(f"Total value : {dice1 + dice2}")
 
 if dice1 + dice2 > 7 :
-    print("You won!")
+    print(f"{userName} won!")
 else :
-    print("You lost.")
+    print(f"{userName} lost.")
