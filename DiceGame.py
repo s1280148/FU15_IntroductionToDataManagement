@@ -1,5 +1,9 @@
 import random
 
+
+userName = input("What is your name?\n")
+print(f"Hello, {userName}!")
+
 print("Rolling the dice...")
 
 dice1 = random.randint(1, 6)
